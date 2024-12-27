@@ -1,0 +1,51 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #cbc8c8;
+}
+
+.container {
+    width: 800px;
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(27, 27, 27, 0.5);
+}
+
+p{
+    animation-duration: 5s;
+    animation: fadeIn 1s ease-in-out;
+    text-align: left;
+    font-family: Liberation-serif;
+    font-size: medium;
+    font-weight: 350;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.button{
+    border-radius: 6px;
+    background-color: #FFF;
+    color: #000;
+    margin-left: 590px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button:hover{
+    font-weight: bolder;
+}
