@@ -8,79 +8,83 @@
     <link rel="stylesheet" href="About.css">
     <link rel="icon" type="image/x-icon" href="information.png">
     <style>
-@keyframes bounce {
-    0% {
-      transform: translateY(-30px);
-      opacity: 0;
-    }
-    50% {
-      transform: translateY(10px);
-      opacity: 1;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-}
+        @keyframes bounce {
+            0% {
+              transform: translateY(-30px);
+              opacity: 0;
+            }
+            50% {
+              transform: translateY(10px);
+              opacity: 1;
+            }
+            100% {
+              transform: translateY(0);
+              opacity: 1;
+            }
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top:40px;
+            background-color: #cbc8c8;
+        }
+        
+        p {
+            animation: bounce 5s;
+            text-align: left;
+            background: #fcf9eb;
+            padding: 0;
+            border-radius: 9px;
+            box-shadow: 0 0 40px rgba(27, 27, 27, 0.5);
+            margin: 10px;
+            padding: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .btn{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 100px 0 0;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 500;
+            height: 40px;
+            box-align: center;
+        }
+        
+        .btn:hover{
+            font-weight: 900;
+        }
+        
+        .btn-primary{
+            color: white;
+            font-weight: 500;
+            height: 40px;
+            box-align: center;
+            margin-left: 165px;
+        }
+        
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        
+        a:hover{
+            color: white;
+            font-weight: 900;
+        }
+        
+        .d-flex justify-content-between{
+            margin: 0 0 0 120px;
+        }
 
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top:40px;
-    background-color: #cbc8c8;
-}
-
-p {
-    animation: bounce 5s;
-    text-align: left;
-    background: #fcf9eb;
-    padding: 0;
-    border-radius: 9px;
-    box-shadow: 0 0 40px rgba(27, 27, 27, 0.5);
-    margin: 10px;
-    padding: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.btn{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin: 0 100px 0 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    height: 40px;
-    box-align: center;
-}
-
-.btn:hover{
-    font-weight: 900;
-}
-
-.btn-primary{
-    color: white;
-    font-weight: 500;
-    height: 40px;
-    box-align: center;
-    margin-left: 165px;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 400;
-}
-
-a:hover{
-    color: white;
-    font-weight: 900;
-}
-
-.d-flex justify-content-between{
-    margin: 0 0 0 120px;
-}
+        p{
+            font-weight: 350px;
+        }
     </style>
 </head>
 <body>
@@ -135,6 +139,7 @@ a:hover{
                     <br>
                     <br>
                     <br>
+                </p>
             </div>
         </div>
     </div>
