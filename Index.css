@@ -3,6 +3,11 @@
     src: url(2.ttf);
 }
 
+@font-face{
+    font-family: 'Quaker';
+    src: url(2.ttf);
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
